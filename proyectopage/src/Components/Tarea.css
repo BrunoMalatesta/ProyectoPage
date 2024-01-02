@@ -1,0 +1,28 @@
+.tarea-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: #ffffff;
+}
+
+.tarea-container span {
+  font-size: 18px;
+}
+
+.buttondelete {
+  padding: 6px 10px;
+  background-color: #ff5050;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttondelete:hover {
+  background-color: #700303;
+}
+
+  

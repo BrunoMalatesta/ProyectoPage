@@ -1,0 +1,48 @@
+.lista-tareas-container {
+  max-width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #c7eba6;
+}
+
+.lista-tareas-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.lista-tareas-container input[type="text"] {
+  width: calc(100% - 85px);
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.buttonlistatarea {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonlistatarea:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* ListaTareas.css */
+.lista-tareas-container input[type="text"] {
+  width: 100%; /* Ancho completo del contenedor */
+  padding: 8px; /* Espaciado interno */
+  margin-bottom: 10px; /* Espaciado inferior */
+}
